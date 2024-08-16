@@ -406,7 +406,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--cpu_offloading", action="store_true"
     )
-    parser.add_argument("--answer-file", type=str, help="The output answer file.")
+    parser.add_argument(
+        "--answer-file", type=str, help="The output answer file."
+    )
     parser.add_argument(
         "--max-new-token",
         type=int,

@@ -1,0 +1,6 @@
+Output/
+backup/
+logs/
+torch_files/
+log*
+**/__pycache__
